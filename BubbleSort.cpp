@@ -64,4 +64,11 @@ void display() {
 	cout << endl;
 }
 
-//m
+int main() {
+	input(); 
+	bubbleshortarray(); //call the selection sort function
+	display(); //display the sorted array
+	system("pause");
+
+	return 0;
+}
